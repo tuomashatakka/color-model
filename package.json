@@ -1,0 +1,30 @@
+{
+  "name": "color-model",
+  "version": "1.0.0",
+  "description": "An abstract class for representing a color",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*",
+    "types/**/*"
+  ],
+  "types": "types/**/*",
+  "scripts": {
+    "test": "ava",
+    "build": "tsc",
+    "prepublish": "tsc",
+    "lint": "eslint src/**/*"
+  },
+  "keywords": [
+    "color",
+    "hsl",
+    "rgb"
+  ],
+  "author": "tuomashatakka <tuomas.hatakka@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "typescript": "^4.6.4"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "include":            [ "./src" ],
+  "exclude":            [ "./node_modules", "**/*.spec.ts" ],
+  "compilerOptions":    {
+    "baseUrl":          ".",
+    "outDir":           "./lib",
+    // "declarationDir":   "./types",
+    "module":           "commonjs",
+    "target":           "es6",
+    // "lib":              [ "es2017", "es7", "es6", "dom" ],
+    // "allowJs":          false,
+    "strict":           true,
+    "declaration":      true,
+    // "composite":        false,
+    "esModuleInterop": true,
+    "sourceMap": true
+  }
+}
